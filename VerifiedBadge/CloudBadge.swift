@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
 
-public struct CloudBadge<Content: View>: View {
+public struct VerifiedBadge<Content: View>: View {
     let capsuleCount: Range = 0..<7
     let rotationStep: Int = 45
 

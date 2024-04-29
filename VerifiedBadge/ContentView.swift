@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CloudBadge(content: {
+        VerifiedBadge(content: {
             Image(systemName: "checkmark")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
