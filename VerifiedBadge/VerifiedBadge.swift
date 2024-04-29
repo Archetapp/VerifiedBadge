@@ -50,7 +50,7 @@ public struct VerifiedBadge<Content: View>: View {
                 height: reader.size.height,
                 alignment: .center
             )
-            .aspectRatio(1, contentMode: .fit) // Keep the badge circular
+            .aspectRatio(1, contentMode: .fit)
         }
     }
 }
